@@ -44,7 +44,7 @@ different scenes and the validation set contains of 888 frames. The test set con
 
 ## Usage
 
-Training: `python train.py --data nyu --gpus 1 --bs 8`
+Training: `python train.py --data nyu`
 
 Testing: `python test.py`
 
@@ -60,7 +60,7 @@ Evaluate: `python evaluate.py`
 
 ![roc-auc](images/depth7.png)
 
-### Results for predicted image on NYU dataset
+### Results for predicted image using NYU dataset:
 
 ![roc-auc](images/depth4.png)
 
@@ -68,7 +68,7 @@ Figure 2: Qualitative comparison of the estimated depth map on the NYU v2 datase
 depth (red is far, blue is close). First row: RGB image, second row: Ground Truth depth map, third
 row: Results of our proposed method
 
-### Results for predicted image on Kitti dataset
+### Results for predicted image using Kitti dataset:
 
 ![roc-auc](images/depth1.png)
 
@@ -98,9 +98,9 @@ BibTex:
 }
 ```
 
-APA:
+MLA:
 
-`Sagar, A. (2020). Monocular Depth Estimation Using Multi Scale Neural Network And Feature Fusion. arXiv preprint arXiv:2009.09934.`
+`Sagar, Abhinav. "Monocular Depth Estimation Using Multi Scale Neural Network And Feature Fusion." arXiv preprint arXiv:2009.09934 (2020).`
 
 ## License
 
